@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/ucenter/recognise",
+    "pages/ucenter/login",
+    "pages/ucenter/register",
+    "pages/tabBar/index/index",
+    "pages/tabBar/add_course/add_course",
+    "pages/tabBar/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "学生考勤",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#DE533A",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "签到",
+        "iconPath": "static/tabBar/灰化分析@2x.png",
+        "selectedIconPath": "static/tabBar/分析@2x.png"
+      },
+      {
+        "pagePath": "pages/tabBar/add_course/add_course",
+        "text": "添加课程",
+        "iconPath": "static/tabBar/灰化课堂@2x.png",
+        "selectedIconPath": "static/tabBar/课堂@2x.png"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "text": "我的",
+        "iconPath": "static/tabBar/灰化我的@2x.png",
+        "selectedIconPath": "static/tabBar/我的@2x.png"
+      }
+    ]
+  }
+}

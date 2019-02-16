@@ -1,0 +1,90 @@
+{
+    "pages" : [
+		
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/ucenter/recognise",
+			"style" : {
+				"navigationBarTitleText" : "识别",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			 "path" : "pages/ucenter/login",
+			 "style" : {
+			 	"navigationBarTitleText" : "登录",
+			 	"app-plus":{
+			 		"bounce":"none"
+			 	}
+			 }
+		},	
+			
+		{
+			"path" : "pages/ucenter/register",
+			"style" : {
+				"navigationBarTitleText" : "注册",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		},
+		
+		{
+		    "path" : "pages/tabBar/index/index",
+		    "style" : {
+		        "navigationBarTitleText" : "签到",
+		        "app-plus" : {}
+		    }
+		},
+	
+		
+		{
+			
+			    "path" : "pages/tabBar/add_course/add_course",
+			    "style" : {
+			        "navigationBarTitleText" : "添加课程"
+			    }
+			},
+			
+		{
+		    "path" : "pages/tabBar/my/my",
+		    "style" : {
+		        "navigationBarTitleText" : "我的"
+		    }
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "学生考勤",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+	"tabBar":{
+		"color":"#707070",
+		"selectedColor":"#DE533A",
+		"list":[
+			{
+			    "pagePath" : "pages/tabBar/index/index",
+			    "text" : "签到",
+			    "iconPath" : "static/tabBar/灰化分析@2x.png",
+			    "selectedIconPath" : "static/tabBar/分析@2x.png"
+			},
+			{
+			    "pagePath" : "pages/tabBar/add_course/add_course",
+			    "text" : "添加课程",
+			    "iconPath" : "static/tabBar/灰化课堂@2x.png",
+			    "selectedIconPath" : "static/tabBar/课堂@2x.png"
+			},
+			 {
+			    "pagePath" : "pages/tabBar/my/my",
+			    "text" : "我的",
+			    "iconPath" : "static/tabBar/灰化我的@2x.png",
+			    "selectedIconPath" : "static/tabBar/我的@2x.png"
+			}
+			
+			 
+		]
+	}
+}
