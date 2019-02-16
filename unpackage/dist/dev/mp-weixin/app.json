@@ -2,6 +2,7 @@
   "pages": [
     "pages/tabBar/index/index",
     "pages/ucenter/login",
+    "pages/ucenter/uni-center",
     "pages/ucenter/register",
     "pages/tabBar/add_course/add_course",
     "pages/tabBar/my/my"
@@ -31,7 +32,7 @@
         "selectedIconPath": "static/tabBar/课堂@2x.png"
       },
       {
-        "pagePath": "pages/tabBar/my/my",
+        "pagePath": "pages/ucenter/uni-center",
         "text": "我的",
         "iconPath": "static/tabBar/灰化我的@2x.png",
         "selectedIconPath": "static/tabBar/我的@2x.png"

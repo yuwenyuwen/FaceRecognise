@@ -18,7 +18,13 @@
 			 	}
 			 }
 		},	
-			
+		{
+		    "path" : "pages/ucenter/uni-center",
+		    "style" : {
+		        "navigationBarTitleText" : "我的",
+		        "app-plus" : {}
+		    }
+		},	
 		{
 			"path" : "pages/ucenter/register",
 			"style" : {
@@ -69,7 +75,7 @@
 			    "selectedIconPath" : "static/tabBar/课堂@2x.png"
 			},
 			 {
-			    "pagePath" : "pages/tabBar/my/my",
+			    "pagePath" : "pages/ucenter/uni-center",
 			    "text" : "我的",
 			    "iconPath" : "static/tabBar/灰化我的@2x.png",
 			    "selectedIconPath" : "static/tabBar/我的@2x.png"
