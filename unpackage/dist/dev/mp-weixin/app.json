@@ -1,9 +1,8 @@
 {
   "pages": [
-    "pages/ucenter/recognise",
+    "pages/tabBar/index/index",
     "pages/ucenter/login",
     "pages/ucenter/register",
-    "pages/tabBar/index/index",
     "pages/tabBar/add_course/add_course",
     "pages/tabBar/my/my"
   ],

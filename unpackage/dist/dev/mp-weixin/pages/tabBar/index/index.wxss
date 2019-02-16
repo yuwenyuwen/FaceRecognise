@@ -1,0 +1,25 @@
+
+.button-group{
+	text-align: center;
+}
+.spec-button{
+	display: inline-block;
+	width:30%;
+	border-radius: 5px;
+	margin:20px 2px;
+}
+.img-spec-div{
+	text-align: center;
+	padding: 20px;
+}
+.img-spec{
+	border-radius: 50%;
+}
+.take-photo-btn{
+	margin:20px 20%;
+}
+.result-spec{
+	text-align: center;
+	font-size: 20px;
+}
+
