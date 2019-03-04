@@ -2,10 +2,9 @@
   "pages": [
     "pages/tabBar/index/index",
     "pages/ucenter/login",
-    "pages/ucenter/uni-center",
+    "pages/tabBar/my/myCourse",
     "pages/ucenter/register",
-    "pages/tabBar/add_course/add_course",
-    "pages/tabBar/my/my"
+    "pages/tabBar/add_course/add_course"
   ],
   "subPackages": [],
   "window": {
@@ -32,7 +31,7 @@
         "selectedIconPath": "static/tabBar/课堂@2x.png"
       },
       {
-        "pagePath": "pages/ucenter/uni-center",
+        "pagePath": "pages/tabBar/my/myCourse",
         "text": "我的",
         "iconPath": "static/tabBar/灰化我的@2x.png",
         "selectedIconPath": "static/tabBar/我的@2x.png"

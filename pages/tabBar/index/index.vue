@@ -1,3 +1,4 @@
+/*签到*/
 <template>
 	<view>
         <view>

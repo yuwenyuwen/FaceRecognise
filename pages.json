@@ -19,10 +19,12 @@
 			 }
 		},	
 		{
-		    "path" : "pages/ucenter/uni-center",
+		    "path" : "pages/tabBar/my/myCourse",
 		    "style" : {
 		        "navigationBarTitleText" : "我的",
-		        "app-plus" : {}
+		        "app-plus" : {
+					"bounce":"none"
+				}
 		    }
 		},	
 		{
@@ -34,22 +36,11 @@
 				}
 			}
 		},
-		
-	
-		
 		{
-			
-			    "path" : "pages/tabBar/add_course/add_course",
-			    "style" : {
-			        "navigationBarTitleText" : "添加课程"
-			    }
-			},
-			
-		{
-		    "path" : "pages/tabBar/my/my",
-		    "style" : {
-		        "navigationBarTitleText" : "我的"
-		    }
+			"path" : "pages/tabBar/add_course/add_course",
+			"style" : {
+				"navigationBarTitleText" : "添加课程"
+			}
 		}
     ],
     "globalStyle" : {
@@ -75,12 +66,11 @@
 			    "selectedIconPath" : "static/tabBar/课堂@2x.png"
 			},
 			 {
-			    "pagePath" : "pages/ucenter/uni-center",
+			    "pagePath" : "pages/tabBar/my/myCourse",
 			    "text" : "我的",
 			    "iconPath" : "static/tabBar/灰化我的@2x.png",
 			    "selectedIconPath" : "static/tabBar/我的@2x.png"
 			}
-			
 			 
 		]
 	}
