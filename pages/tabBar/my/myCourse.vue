@@ -41,7 +41,7 @@
 		data() {
 			return {
 				login: false,
-				avatarUrl: "../../static/img/my/logo.png",
+				avatarUrl: "../../../static/img/my/logo.png",
 				uerInfo: {
 					name:"刘老师",
 					detail:[
